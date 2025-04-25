@@ -27,7 +27,7 @@ DECODO_PORT = '7000' ## Port of the endpoint you are using.
 
 # Running the scraper
 
-Navigate to the project folder and run the following command
+Navigate to the project folder and run the following command:
 
 ```
 scrapy crawl amazon_search
