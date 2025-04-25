@@ -55,10 +55,10 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 }
 
-SMARTPROXY_USER = 'SPusername' ## Smartproxy Username (Sub-user)
-SMARTPROXY_PASSWORD = 'SPpassword' ## Password for your user
-SMARTPROXY_ENDPOINT = 'gate.smartproxy.com' ## Endpoint you'd like to use
-SMARTPROXY_PORT = '7000' ## Port of the endpoint you are using.
+DECODO_USER = 'username' ## Decodo username (Sub-user)
+DECODO_PASSWORD = 'password' ## Password for your user
+DECODO_ENDPOINT = 'gate.decodo.com' ## Endpoint you'd like to use
+DECODO_PORT = '7000' ## Port of the endpoint you are using.
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
